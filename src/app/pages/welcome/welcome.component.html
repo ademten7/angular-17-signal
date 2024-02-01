@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <h1>{{count()}}</h1>
+    <h1>{{newCount()}}</h1>
+    </div>
+  <button (click)="increment()">Artir</button>
+  <button (click)="decrement()">Azalt</button>
+  <ul>
+    @for(li of list(); track li){
+    <li>{{li}}</li>
+    }
+  </ul>
+</div>
